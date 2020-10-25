@@ -23,6 +23,9 @@ body{
     padding: 20px;
     width: -webkit-fill-available;
 }
+.nf{
+    font-family: 'Righteous', cursive;
+}
 body.dark{
     background-color: black;
     color: #eee;
