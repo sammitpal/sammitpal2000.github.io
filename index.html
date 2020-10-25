@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sammit Pal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 710px)" href="mobile.css">
+</head>
+
+<body>
+    <nav class="navbar hnav" id="navbar">
+        <div class="left v-class">
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                    <a href="#aboutme">ABOUT</a>
+                    <a href="#ssec">SKILLS</a>
+                    <a href="#pro">PROJECT</a>
+                    <a href="#cont">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right v-class">
+            <input type="checkbox" class="checkbox" id="toggle">
+            <label for="toggle" class="label">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="first" id="fsec">
+
+        <div class="intro">
+            <h1>Hi,</h1>
+            <p>Sammit Pal&nbsp;&nbsp;👋</p>
+            <h3>Web Developer | Android Developer</h3>
+        </div>
+        <a href="https://github.com/sammitpal2000/" target="_blank">
+            <div class="github">
+                <i class="fab fa-github fa-3x"></i>
+                <p>Github Profile</p>
+            </div>
+        </a>
+        <a href="#aboutme">
+            <div class="arrow">
+                <i class="fas fa-arrow-circle-down fa-3x"></i>
+            </div>
+        </a>
+    </section>
+
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="text">
+                <div class="image">
+                    <img src="face.jpg" alt="">
+                </div>
+                <p>My name is Sammit Pal. I am a Web Developer and Android Developer.<br> Web Development Enthusiastic |
+                    Fast Learner | Innovator</p>
+            </div>
+            <div class="background">
+                <h2>Education</h2>
+                <div class="qualification">
+                    <div class="edu">
+                        <p>University of Engineering and Management Kolkata</p>
+                        <i>B.Tech Computer Science and Engineering <br> 2018 - Present</i>
+                    </div>
+                    <div class="edu">
+                        <p>Indira Gandhi Memorial High School</p>
+                        <i>Central Board of Secondary Education. <br>Senior Secondary. <br>2016 - 2018</i>
+                    </div>
+                    <div class="edu">
+                        <p>St. Mary's Orphanage and Day School</p>
+                        <i> Indian Certificate of Secondary Education. <br>Secondary<br>2005 - 2016</i>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <h2>Work</h2>
+                <div class="image">
+                    <img src="ob.png" alt="">
+                </div>
+                <p>Campus Ambassador</p>
+                <i>October 2020 - Present</i>
+            </div>
+        </div>
+    </section>
+
+    <section class="second" id="ssec">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <marquee>
+                    <i class="fab fa-cuttlefish fa-3x">++</i>
+                    <i class="fab fa-python fa-3x"></i>
+                    <i class="fab fa-java fa-3x"></i>
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <i class="fab fa-bootstrap fa-3x"></i>
+                    <i class="fab fa-js-square fa-3x"></i>
+                    <i class="fab fa-git fa-3x"></i>
+                    <i class="fab fa-github fa-3x"></i>
+                    <i class="fab fa-android fa-3x"></i>
+                </marquee>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="pro">
+        <div class="container">
+            <h2>Project</h2>
+            <div class="project">
+                <div id="repos"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="cont">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <i class="fas fa-envelope fa-5x"></i>
+            <form class="form" id="form">
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="name@example.com" required>
+
+                <label for="name">Name</label>
+                <input type="Name" name="" id="name" placeholder="name" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" name="" id="phone" placeholder="Phone Number with Country code." required>
+
+                <button id="button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="icons">
+                <a href="https://www.facebook.com/sammit2000"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/sammitpal2000"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://twitter.com/sammitpal2000"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+            <p>&copy;Sammit Pal 2020</p>
+        </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var firebaseConfig = {
+            apiKey: "AIzaSyBt4UJoJQt_CDCVy8Nv9-PE3lQRfRnFZA4",
+            authDomain: "portfolio-99a6a.firebaseapp.com",
+            databaseURL: "https://portfolio-99a6a.firebaseio.com",
+            projectId: "portfolio-99a6a",
+            storageBucket: "portfolio-99a6a.appspot.com",
+            messagingSenderId: "1079712593065",
+            appId: "1:1079712593065:web:65f4863b323ef7fda2a5b8",
+            measurementId: "G-V0HMFQS0EN"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>

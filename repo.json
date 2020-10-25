@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "name": "Github Profile Finder",
+            "lang": "HTML CSS BOOTSTRAP JAVASCRIPT FIREBASE",
+            "url":  "https://sammitpal2000.github.io/github_profile_finder/",
+            "desc": "This will show the repositories and github description of any particular username"
+        },
+        {
+            "name": "Movies App",
+            "lang": "HTML CSS BOOTSTRAP JAVASCRIPT REST API",
+            "url": "https://sammitpal2000.github.io/Movie-app/index.html",
+            "desc": "Here you can search for your favorite movie along with the brief overview and TMDB rating"
+        },
+        {
+            "name": "Weather App",
+            "lang": "HTML CSS BOOTSTRAP JAVASCRIPT",
+            "url": "https://sammitpal2000.github.io/weather/",
+            "desc": "This will show the current Temperature of any City around the world"
+        },
+        {
+            "name": "Tic Tac Toe",
+            "lang": "ANDROID JAVA XML",
+            "url": "",
+            "desc": "An android app where you can play with your friends offline"
+        },
+        {
+            "name": "Quiz App",
+            "lang": "HTML CSS BOOTSTRAP JAVASCRIPT",
+            "url":"https://sammitpal2000.github.io/quiz_web/",
+            "desc": "Here you can play your favorite quiz and get your score"
+        },
+        {
+            "name": "Study Online Web",
+            "lang": "HTML CSS BOOTSTRAP JAVASCRIPT FIREBASE",
+            "url": "https://sammitpal2000.github.io/Online_Study_web/",
+            "desc": "Free web app for students to learn new Things"
+        },
+        {
+            "name": "Study Online App",
+            "lang": "ANDROID JAVA XML FIREBASE",
+            "url": "",
+            "desc": "Free android application for students to learn new Things"
+        },
+        {
+            "name": "Covid-19 Tracker",
+            "lang": "HTML CSS BOOTSTRAP JAVASCRIPT REST API",
+            "url":"https://sammitpal2000.github.io/covid19/",
+            "desc":"n this pandemic days, we can see the live covid updates of different countries like the Confirmed, Active, Death and Recoverd plotted in a graph in a very efficient manner."
+        }
+    ]
+}
